@@ -14,14 +14,16 @@ Summary: Palettes generated mostly from Wes Anderson movies
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-wesanderson-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-wesanderson-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-wesanderson-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-wesanderson-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-wesanderson-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-wesanderson-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-wesanderson-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-wesanderson-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-wesanderson-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-wesanderson-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-wesanderson-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-wesanderson-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-wesanderson/badges/version.svg)](https://anaconda.org/conda-forge/r-wesanderson)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-wesanderson/badges/downloads.svg)](https://anaconda.org/conda-forge/r-wesanderson)
+[![Conda Recipe](https://img.shields.io/badge/recipe-r--wesanderson-green.svg)](https://anaconda.org/conda-forge/r-wesanderson)
+[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-wesanderson.svg)](https://anaconda.org/conda-forge/r-wesanderson)
+[![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-wesanderson.svg)](https://anaconda.org/conda-forge/r-wesanderson)
+[![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-wesanderson.svg)](https://anaconda.org/conda-forge/r-wesanderson)
 
 Installing r-wesanderson
 ========================

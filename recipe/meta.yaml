@@ -1,5 +1,4 @@
-{% set version = "0.3.6" %}
-
+{% set version = '0.3.6' %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,34 +9,35 @@ package:
 source:
   fn: wesanderson_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/wesanderson_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/wesanderson/wesanderson_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/wesanderson_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/wesanderson/wesanderson_{{ version }}.tar.gz
   sha256: 22b6ea042a01d68a3bb471fc747f12c9beee61e1e4a4cf8ec0b2e12ac535b926
 
 build:
-  number: 0
+  merge_build_host: True  # [win]
+  number: 1
   skip: true  # [win32]
-
   rpaths:
     - lib/R/lib/
     - lib/
 
 requirements:
   build:
+    - {{posix}}zip               # [win]
+  host:
     - r-base
-
   run:
     - r-base
 
 test:
   commands:
-    - $R -e "library('wesanderson')"  # [not win]
+    - $R -e "library('wesanderson')"           # [not win]
     - "\"%R%\" -e \"library('wesanderson')\""  # [win]
 
 about:
   home: https://github.com/karthik/wesanderson
   license: MIT
-  summary: Palettes generated mostly from Wes Anderson movies
+  summary: Palettes generated mostly from 'Wes Anderson' movies.
   license_family: MIT
 
 extra:
@@ -46,3 +46,5 @@ extra:
     - bgruening
     - daler
     - jdblischak
+    - cbrueffer
+    - dbast

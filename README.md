@@ -14,9 +14,8 @@ Summary: Palettes generated mostly from 'Wes Anderson' movies.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-wesanderson-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-wesanderson-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-wesanderson-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-wesanderson-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-wesanderson-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-wesanderson-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-wesanderson-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-wesanderson-feedstock)
 
 Current release info
 ====================

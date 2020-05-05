@@ -1,10 +1,10 @@
 appveyor:
-  secure: {BINSTAR_TOKEN: tumuXLL8PU75WMnRDemRy02ruEq2RpNxeK3dz0MjFssnosPm2v4EFjfNB4PTotA1}
-compiler_stack: comp7
-max_py_ver: '37'
-max_r_ver: '35'
-provider: {win: azure}
-travis:
-  secure: {BINSTAR_TOKEN: VUY2LnIkEGkc/j3aHaALNauC65MOL8UZBAHAPFteFn0FxlrLG+jeDLEnlet2lW8Xn/MA5YUI8tBXimr34IbZFY4kWboh8fkUPhymBXnzNWmjdRKpC+9wdx6qsQb6Xs8LnuqLvGP5dTotCIM+FiNLHENv0uBf+Ak30RoN+aEkYarELHMhT+5aap9p4OoRqkgvWDF8C4//UqVK1sBTpP+/v5dNUhFXtJTvmarfycXyplEMECvETUDz1VC7+cgcSQftn/UE2HYbs2cEmi3mP0W/RqtObECjf2Laqt4lNNlmSYTAAqJT7cie2qQeu/a/ee2LX8TXQz/vmD9qFVeGu6rrFiiRrTEB3TumeFomCPdl4Ah+0/0cy+C6/7K3ak3UtmPzyNR4DAp3FfK1OwGNn/zUX2/CrmarjxM2oMMBseo32wIRtiuVUfZMS/dB26G022ei5Cx4PeV4GnRj0bhk+Naww+SKSkuy51UQ9HmD4ZnihsS4MEBLpSrDs2jTWpwmX9YixUZ6ukjh7Jy0/2tG+npvUW4vOofqsTG4a4r1+VqdmPEhQ/IhmITAk1XdXVecYnMzJzSLAkp0QPSY+wFzzwEaeG0rmOXaAsCiPm9+qU6Z6FUAw+OiNh5XS+A+FieT6Llw7pjhMdkIfrs6ezxUknmKlvKu54ruWX5mSmFpDcfOwOU=}
+  secure:
+    BINSTAR_TOKEN: tumuXLL8PU75WMnRDemRy02ruEq2RpNxeK3dz0MjFssnosPm2v4EFjfNB4PTotA1
 bot:
   automerge: true
+provider:
+  win: azure
+travis:
+  secure:
+    BINSTAR_TOKEN: VUY2LnIkEGkc/j3aHaALNauC65MOL8UZBAHAPFteFn0FxlrLG+jeDLEnlet2lW8Xn/MA5YUI8tBXimr34IbZFY4kWboh8fkUPhymBXnzNWmjdRKpC+9wdx6qsQb6Xs8LnuqLvGP5dTotCIM+FiNLHENv0uBf+Ak30RoN+aEkYarELHMhT+5aap9p4OoRqkgvWDF8C4//UqVK1sBTpP+/v5dNUhFXtJTvmarfycXyplEMECvETUDz1VC7+cgcSQftn/UE2HYbs2cEmi3mP0W/RqtObECjf2Laqt4lNNlmSYTAAqJT7cie2qQeu/a/ee2LX8TXQz/vmD9qFVeGu6rrFiiRrTEB3TumeFomCPdl4Ah+0/0cy+C6/7K3ak3UtmPzyNR4DAp3FfK1OwGNn/zUX2/CrmarjxM2oMMBseo32wIRtiuVUfZMS/dB26G022ei5Cx4PeV4GnRj0bhk+Naww+SKSkuy51UQ9HmD4ZnihsS4MEBLpSrDs2jTWpwmX9YixUZ6ukjh7Jy0/2tG+npvUW4vOofqsTG4a4r1+VqdmPEhQ/IhmITAk1XdXVecYnMzJzSLAkp0QPSY+wFzzwEaeG0rmOXaAsCiPm9+qU6Z6FUAw+OiNh5XS+A+FieT6Llw7pjhMdkIfrs6ezxUknmKlvKu54ruWX5mSmFpDcfOwOU=

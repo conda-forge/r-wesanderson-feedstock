@@ -1,4 +1,4 @@
-{% set version = '0.3.6' %}
+{% set version = "0.3.7" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/wesanderson_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/wesanderson/wesanderson_{{ version }}.tar.gz
-  sha256: 22b6ea042a01d68a3bb471fc747f12c9beee61e1e4a4cf8ec0b2e12ac535b926
+  sha256: c92e5604e1e149e00f49fd236c6ab8cd09d96106eb14479f7839e6996bf95e4e
 
 build:
-  merge_build_host: True  # [win]
-  number: 1006
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/

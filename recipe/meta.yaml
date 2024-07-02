@@ -1,6 +1,5 @@
 {% set version = "0.3.7" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-wesanderson
@@ -13,8 +12,7 @@ source:
   sha256: c92e5604e1e149e00f49fd236c6ab8cd09d96106eb14479f7839e6996bf95e4e
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
